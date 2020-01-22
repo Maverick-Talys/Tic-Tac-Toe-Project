@@ -60,3 +60,7 @@ Only player VS player mode is available
 - optimised code
 - player VS AI mode in progress
 - design in progress
+
+### Want to see a demo ? 
+### Download the project, and open the following file : index.html
+
