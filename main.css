@@ -13,6 +13,14 @@ h1 {
   justify-content: space-between;
 }
 
+#player-x {
+  color: #005ff9;
+}
+
+#player-o {
+  color: #f90000;
+}
+
 #menu {
   display: flex;
   padding-top: 5px;

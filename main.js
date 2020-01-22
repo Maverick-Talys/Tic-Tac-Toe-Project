@@ -122,8 +122,10 @@ function switchPlayerTurn() {
 function displayPlayerturn(playerTurn) {
   if (playerTurn === playerOneId) {
     displayTurnPlayerName.textContent = "Player X";
+    displayTurnPlayerName.style.color = "#005ff9"
   } else {
     displayTurnPlayerName.textContent = "Player O";
+    displayTurnPlayerName.style.color = "#f90000"
   }
 }
 
@@ -138,6 +140,14 @@ function displayWinnerPlayer(playerTurn) {
   winner = true;
 }
 
+function displayPlayerColorChoice(playerTurn, casesFlag) {
+  if (playerTurn === playerOneId) {
+    casesFlag.style.color = "#005ff9"
+  } else {
+    casesFlag.style.color = "#f90000"
+  }
+}
+
 function gameOne() {
   for (let i = 0; i < cases.length; i++) {
     for (let x = 0; x < cases[i].length; x++) {
@@ -145,6 +155,7 @@ function gameOne() {
         if (!winner && (gameState[i][x] !== "X" && gameState[i][x] !== "O")) {
           cases[i][x].textContent = playerTurn;
           gameState[i][x] = playerTurn;
+          displayPlayerColorChoice(playerTurn, cases[i][x])
           checkingWinner();
           switchPlayerTurn();
           displayPlayerturn(playerTurn);
