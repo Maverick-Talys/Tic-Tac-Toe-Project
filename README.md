@@ -1,3 +1,4 @@
+## Author : Mr.Maverick
 # Tic-Tac-Toe Projet : WIP - R.V 01 (last release 03/06/2019) 
 
 A Tic Tac Toe project in HTML, CSS and JS. 
