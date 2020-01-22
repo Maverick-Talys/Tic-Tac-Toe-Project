@@ -21,6 +21,10 @@ The ***rework-version*** branch is a fully rework version from scratch witch the
 The gameState is managed in the script himself, and update the DOM when it is only needed.
 For now, only the player VS player mode is available.
 
+## Tech : 
+- HTML
+- CSS
+- JS  
 
 ## Patch-Notes : 
 
