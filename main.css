@@ -8,11 +8,6 @@ h1 {
   color: white;
 }
 
-#score-display {
-  display: flex;
-  justify-content: space-between;
-}
-
 #menu {
   display: flex;
   padding-top: 5px;
