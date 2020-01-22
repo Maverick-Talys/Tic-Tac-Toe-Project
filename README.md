@@ -1,6 +1,10 @@
 ## Author : Mr.Maverick
 # Tic-Tac-Toe Projet : WIP - R.V 01 (last release 03/06/2019) 
 
+<img src="imgs/Tic-Tac-Toe - .png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 10px;" />
+
 A Tic Tac Toe project in HTML, CSS and JS. 
 
 Welcome to the Tic-Tac-Toe project. 
