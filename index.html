@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Tic-Tac-Toe</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+
+</head>
+
+<body>
+
+  <div id="header">
+    <h1>The Tic-Tac-Toe Game</h1>
+  </div>
+
+  <div id="score-display">
+    <div id="score-p1">
+      <p>Player X : <span id="p1-points">0</span></p>
+    </div>
+    <div id="turn-display">
+      <p id="turn-announcement"> It's up to <span id="turn-player-name"></span> to play
+      </p>
+    </div>
+    <div id="score-p2">
+      <p>Player O : <span id="p2-points">0</span></p>
+    </div>
+  </div>
+
+  <div id="menu">
+    <button id="new-game">New Game</button>
+    <button id="reset">Reset</button>
+  </div>
+
+  <div id="container">
+
+    <div id="box">
+
+      <div class="row">
+        <div class="case row-1"></div>
+        <div class="case row-1"></div>
+        <div class="case row-1"></div>
+      </div>
+
+      <div class="row">
+        <div class="case row-2"></div>
+        <div class="case row-2"></div>
+        <div class="case row-2"></div>
+      </div>
+
+      <div class="row">
+        <div class="case row-3"></div>
+        <div class="case row-3"></div>
+        <div class="case row-3"></div>
+      </div>
+
+    </div>
+    <!---Close box div -->
+
+  </div>
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>
